@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/orange-red-modern-gradient-background-suitable-design-landing-pages-billboards_626143-54.jpg");
+    position: relative;
+    width: 100%;
+    height: 100px;
+    font-family: 'Fredoka One', cursive;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    background-color: #fd0202;
+}
+.header{
+    display:flex;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #ff0000;
+}
+.menu{
+    margin-left:27%;
+}
+.navi{
+    display: inline-block;
+}
+.navi li{
+    font-family: 'Fredoka One', cursive;
+    display: inline-flex;
+    text-align: center;
+    width: 140px;
+    line-height: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navi .activities{
+    margin-left: 10px;
+}
+.navi .movies{
+    margin-left: 50px;
+}
+.navi li a{
+    color: white;
+    text-decoration: underline 2px;
+}
+.navi li a:hover{
+    color:yellow;
+    display: block;
+    opacity: 0.9;
+    transition: 0.5s;
+    text-decoration: overline 2px yellow;
+}
+.scary-stories h1{
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.des{
+    background-color: white;
+    width: 1100px;
+    height: 580px;
+    color: grey;
+    border-radius: 5px;
+}
+.des p{
+    padding: 20px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+.des img{
+    padding: 20px 15px;
+    height: 400px;
+}
+
+.type-of-scary-stories-3-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.nav-img-1{
+    background-image: url("./images/cach-choi-o-an-quan-1.jpg");
+    width: 560px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-size: cover;
+}
+.stories-for-kids{
+    width: 595px;
+    height: 300px;
+    font-family: 'Fredoka One', cursive;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.stories-for-kids .main{
+    color: black;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.stories-for-kids .by{
+margin-left: 20px;
+}
+.stories-for-kids p{
+    margin-left: 20px;
+    color: darkgrey;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.type-of-scary-stories-3-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.nav-img-2{
+    background-image: url("./images/bit-mat-bat-de.jpg");
+    width: 560px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-size: cover;
+}
+.scary-letters{
+    width: 595px;
+    height: 300px;
+    font-family: 'Fredoka One', cursive;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.scary-letters .main{
+    color: black;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.scary-letters .by{
+    margin-left: 20px;
+}
+.scary-letters p{
+    margin-left: 20px;
+    color: darkgrey;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.type-of-scary-stories-3-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.short-stories{
+    width: 595px;
+    height: 300px;
+    font-family: 'Fredoka One', cursive;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nav-img-3{
+    background-image: url("./images/keo-co.jpg");
+    width: 560px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-size: cover;
+}
+.short-stories .main{
+    color: black;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.short-stories .by{
+    margin-left: 20px;
+}
+.short-stories p{
+    margin-left: 20px;
+    color: darkgrey;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.type-of-scary-stories-3-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.nav-img-4{
+    background-image: url("./images/dau-vat.jpg");
+    width: 560px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-size: cover;
+}
+.scary-legend{
+    width: 595px;
+    height: 300px;
+    font-family: 'Fredoka One', cursive;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.scary-legend .main{
+    color: black;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.scary-legend .by{
+    margin-left: 20px;
+}
+.scary-legend p{
+    margin-left: 20px;
+    color: darkgrey;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.type-of-scary-stories-3-5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.nav-img-5{
+    background-image: url("./images/choi-danh-du.jpg");
+    width: 560px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-size: cover;
+}
+.dong-dao{
+    width: 595px;
+    height: 300px;
+    font-family: 'Fredoka One', cursive;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dong-dao .main{
+    color: black;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.dong-dao .by{
+    margin-left: 20px;
+}
+.dong-dao p{
+    margin-left: 20px;
+    color: darkgrey;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.type-of-scary-stories-3-6{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.nav-img-6{
+    background-image: url("./images/dap-nieu-dat.jpg");
+    width: 560px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-size: cover;
+}
+.an-nhan{
+    width: 595px;
+    height: 300px;
+    font-family: 'Fredoka One', cursive;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.an-nhan .main{
+    color: black;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.an-nhan .by{
+    margin-left: 20px;
+}
+.an-nhan p{
+    margin-left: 20px;
+    color: darkgrey;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.footer{
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/—Pngtree—rabbit\ chinese\ new\ year\ 2023_1918035.png");
+    background-size: cover;
+}
+.footer{
+    font-family: 'Fredoka One', cursive;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.catalog{
+    width: 280px;
+    line-height: 40px;
+}
+.catalog li{
+    list-style: none;
+}
+.catalog hr{
+    border-color: darkgrey;
+}
+.catalog li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 200;
+}
+.catalog h2{
+    color: whitesmoke;
+}
+.catalog a:hover{
+    margin-left: 5px;
+    transition: 0.4s;
+    color: chocolate;
+    opacity: 0.7;
+}
+.latest-stories{
+    width: 280px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.latest-stories hr{
+    border-color: darkgrey;
+}
+.latest-stories li{
+    list-style: none;
+}
+.latest-stories li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 200;
+}
+.latest-stories h2{
+    color: whitesmoke;
+}
+.latest-stories a:hover{
+    margin-left: 5px;
+    transition: 0.4s;
+    color:chocolate;
+    opacity: 0.7;
+}
+.recommended{
+    width: 280px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.recommended hr{
+    border-color: darkgrey;
+}
+.recommended li{
+    list-style: none;
+}
+.recommended li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 200;
+}
+.recommended h2{
+    color: whitesmoke;
+}
+.recommended a:hover{
+    margin-left: 5px;
+    transition: 0.4s;
+    color:chocolate;
+    opacity: 0.7;
+}

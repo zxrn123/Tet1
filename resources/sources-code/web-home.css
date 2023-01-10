@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/orange-red-modern-gradient-background-suitable-design-landing-pages-billboards_626143-54.jpg");
+    position: relative;
+    width: 100%;
+    height: 100px;
+    font-family: 'Fredoka One', cursive;
+    background-size: cover;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    background-color: #fd0202;
+}
+.header{
+    display:flex;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #ff0000;
+}
+.menu{
+    margin-left:27%;
+}
+.navi{
+    display: inline-block;
+}
+.navi li{
+    font-family: 'Fredoka One', cursive;
+    display: inline-flex;
+    text-align: center;
+    width: 140px;
+    line-height: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navi .activities{
+    margin-left: 10px;
+}
+.navi .movies{
+    margin-left: 50px;
+}
+.navi li a{
+    color: white;
+    text-decoration: underline 2px;
+}
+.navi li a:hover{
+    color:yellow;
+    display: block;
+    opacity: 0.9;
+    transition: 0.5s;
+    text-decoration: overline 2px yellow;
+}
+.banner{
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    background-image: url("./images/banner-tet/banner-tet-1.jpg");
+    background-size: cover;
+}
+.des{
+    width: 1100px;
+    height: 150px;
+    /* margin-top: 600px; */
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+}
+.des p{
+    /* position: relative; */
+    text-align: center;
+    margin-top: 25px;
+    padding: 30px;
+}
+.post-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.latest-post{
+    margin-top: 30px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+.post-1{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+.stranger-danger{
+    width: 370px;
+    height: 300px;
+    background-image: url(./images/28732ca670b455580d3fb7ab29274724.jpeg);
+    border-radius: 5px;
+    background-size: cover;
+}
+.sd-title{
+    margin-left: 10px;
+}
+.sd-title .main{
+    color: white;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.look-at-me{
+    width: 370px;
+    height: 300px;
+    background-image: url(./images/Tren-duong-bang.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    margin-left: 20px;
+}
+.lam-title .main{
+    color: white;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.lam-title{
+    margin-left: 10px;
+}
+.claustrophobia{
+    width: 370px;
+    height: 300px;
+    background-image: url(./images/bat-tre-dong-xanh.jpg);
+    border-radius: 5px;
+    margin-left: 20px;
+    background-size: cover;
+}
+.clspb-title .main{
+    color: white;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.clspb-title{
+    margin-left: 15px;
+}
+.post-2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.post-2{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    margin-right: 20px;
+}
+.babysister-and-the-bed{
+    width: 370px;
+    height: 300px;
+    background-image: url(./images/SongKoHoiTiec2.jpg);
+    border-radius: 5px;
+    background-size: cover;
+}
+.batb-title .main{
+    color: white;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.batb-title{
+    margin-left: 15px;
+}
+.beatrice{
+    width: 370px;
+    height: 300px;
+    background-image: url(./images/sach-KACG.jpeg);
+    border-radius: 5px;
+    margin-left: 20px;
+    background-size: cover;
+}
+.beatrice-title .main{
+    color: white;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.beatrice-title{
+    margin-left: 15px;
+}
+.death-came-for-him{
+    width: 370px;
+    height: 300px;
+    background-image: url(./images/dung-chon-an-nhan-khi-con-tre.jpeg);
+    border-radius: 5px;
+    margin-left: 20px;
+    background-size: cover;
+}
+.dcfh-title .main{
+    color: white;
+    text-decoration: none;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.dcfh-title{
+    margin-left: 15px;
+}
+.dcfh-title button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.footer{
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/—Pngtree—rabbit\ chinese\ new\ year\ 2023_1918035.png");
+    background-size: cover;
+}
+.footer{
+    font-family: 'Fredoka One', cursive;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.catalog{
+    width: 280px;
+    line-height: 40px;
+}
+.catalog li{
+    list-style: none;
+}
+.catalog hr{
+    border-color: darkgrey;
+}
+.catalog li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 200;
+}
+.catalog h2{
+    color: whitesmoke;
+}
+.catalog a:hover{
+    margin-left: 5px;
+    transition: 0.4s;
+    color: chocolate;
+    opacity: 0.7;
+}
+.latest-stories{
+    width: 280px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.latest-stories hr{
+    border-color: darkgrey;
+}
+.latest-stories li{
+    list-style: none;
+}
+.latest-stories li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 200;
+}
+.latest-stories h2{
+    color: whitesmoke;
+}
+.latest-stories a:hover{
+    margin-left: 5px;
+    transition: 0.4s;
+    color:chocolate;
+    opacity: 0.7;
+}
+.recommended{
+    width: 280px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.recommended hr{
+    border-color: darkgrey;
+}
+.recommended li{
+    list-style: none;
+}
+.recommended li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 200;
+}
+.recommended h2{
+    color: whitesmoke;
+}
+.recommended a:hover{
+    margin-left: 5px;
+    transition: 0.4s;
+    color:chocolate;
+    opacity: 0.7;
+}
